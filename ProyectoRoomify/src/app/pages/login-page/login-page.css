@@ -10,6 +10,6 @@
 .brand-circle {
     width: 64px;
     height: 64px;
-    background: #eef0ff;
-    color: #6366f1;
+    background: rgba(20, 202, 43, 0.16);
+    color: #14CA2B;
 }

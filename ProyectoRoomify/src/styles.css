@@ -1,3 +1,158 @@
+:root {
+    --roomify-green: #14CA2B;
+    --roomify-orange: #F4A261;
+    --roomify-red: #DC3545;
+    --roomify-purple: #4C4C9C;
+    --roomify-forest: #32743B;
+    --roomify-black: #000000;
+
+    --bs-primary: var(--roomify-green);
+    --bs-primary-rgb: 20, 202, 43;
+    --bs-secondary: var(--roomify-purple);
+    --bs-secondary-rgb: 76, 76, 156;
+    --bs-success: var(--roomify-green);
+    --bs-success-rgb: 20, 202, 43;
+    --bs-info: var(--roomify-purple);
+    --bs-info-rgb: 76, 76, 156;
+    --bs-warning: var(--roomify-orange);
+    --bs-warning-rgb: 244, 162, 97;
+    --bs-danger: var(--roomify-red);
+    --bs-danger-rgb: 220, 53, 69;
+    --bs-dark: var(--roomify-black);
+    --bs-dark-rgb: 0, 0, 0;
+    --bs-light: #f3f5f3;
+    --bs-light-rgb: 243, 245, 243;
+    --bs-body-bg: #f3f5f3;
+    --bs-body-color: var(--roomify-black);
+}
+
+body {
+    color: var(--roomify-black);
+    background: #f3f5f3;
+}
+
+.text-primary { color: var(--roomify-green) !important; }
+.text-secondary { color: var(--roomify-purple) !important; }
+.text-success { color: var(--roomify-green) !important; }
+.text-info { color: var(--roomify-purple) !important; }
+.text-warning { color: #b85d16 !important; }
+.text-danger { color: var(--roomify-red) !important; }
+.text-muted { color: var(--roomify-forest) !important; }
+
+.bg-primary { background-color: var(--roomify-green) !important; }
+.bg-secondary { background-color: var(--roomify-purple) !important; }
+.bg-success { background-color: var(--roomify-green) !important; }
+.bg-info { background-color: var(--roomify-purple) !important; }
+.bg-warning { background-color: var(--roomify-orange) !important; }
+.bg-danger { background-color: var(--roomify-red) !important; }
+.bg-dark { background-color: var(--roomify-black) !important; }
+
+.text-bg-primary,
+.text-bg-success {
+    color: #000 !important;
+    background-color: var(--roomify-green) !important;
+}
+
+.text-bg-warning {
+    color: #000 !important;
+    background-color: var(--roomify-orange) !important;
+}
+
+.text-bg-danger {
+    color: #fff !important;
+    background-color: var(--roomify-red) !important;
+}
+
+.text-bg-violet-light {
+    color: #34346f !important;
+    background-color: #bdbdf3 !important;
+}
+
+.bg-primary-subtle { background-color: rgba(20, 202, 43, 0.16) !important; }
+.bg-success-subtle { background-color: rgba(20, 202, 43, 0.16) !important; }
+.bg-warning-subtle { background-color: rgba(244, 162, 97, 0.24) !important; }
+.bg-danger-subtle { background-color: rgba(220, 53, 69, 0.14) !important; }
+.bg-info-subtle { background-color: rgba(76, 76, 156, 0.14) !important; }
+
+.btn-primary {
+    --bs-btn-bg: var(--roomify-green);
+    --bs-btn-border-color: var(--roomify-green);
+    --bs-btn-hover-bg: #10ad25;
+    --bs-btn-hover-border-color: #10ad25;
+    --bs-btn-active-bg: #0e9820;
+    --bs-btn-active-border-color: #0e9820;
+    --bs-btn-color: var(--roomify-black);
+    --bs-btn-hover-color: var(--roomify-black);
+}
+
+.btn-outline-primary {
+    --bs-btn-color: var(--roomify-forest);
+    --bs-btn-border-color: var(--roomify-green);
+    --bs-btn-hover-bg: var(--roomify-green);
+    --bs-btn-hover-border-color: var(--roomify-green);
+    --bs-btn-hover-color: var(--roomify-black);
+}
+
+.btn-secondary {
+    --bs-btn-bg: var(--roomify-purple);
+    --bs-btn-border-color: var(--roomify-purple);
+    --bs-btn-hover-bg: #3f3f84;
+    --bs-btn-hover-border-color: #3f3f84;
+}
+
+.btn-outline-secondary {
+    --bs-btn-color: var(--roomify-purple);
+    --bs-btn-border-color: var(--roomify-purple);
+    --bs-btn-hover-bg: var(--roomify-purple);
+    --bs-btn-hover-border-color: var(--roomify-purple);
+}
+
+.btn-success {
+    --bs-btn-bg: var(--roomify-green);
+    --bs-btn-border-color: var(--roomify-green);
+    --bs-btn-color: var(--roomify-black);
+}
+
+.btn-warning {
+    --bs-btn-bg: var(--roomify-orange);
+    --bs-btn-border-color: var(--roomify-orange);
+    --bs-btn-color: var(--roomify-black);
+}
+
+.btn-danger {
+    --bs-btn-bg: var(--roomify-red);
+    --bs-btn-border-color: var(--roomify-red);
+    --bs-btn-hover-bg: #b02a37;
+    --bs-btn-hover-border-color: #b02a37;
+    --bs-btn-color: #fff;
+}
+
+.btn-outline-danger {
+    --bs-btn-color: var(--roomify-red);
+    --bs-btn-border-color: var(--roomify-red);
+    --bs-btn-hover-bg: var(--roomify-red);
+    --bs-btn-hover-border-color: var(--roomify-red);
+    --bs-btn-hover-color: #fff;
+}
+
+.alert-danger {
+    --bs-alert-bg: rgba(220, 53, 69, 0.12);
+    --bs-alert-border-color: var(--roomify-red);
+    --bs-alert-color: #842029;
+}
+
+.table-light,
+.table-light th,
+.table-light td {
+    --bs-table-bg: rgba(50, 116, 59, 0.10);
+    --bs-table-color: var(--roomify-black);
+}
+
+.card,
+.modal-content {
+    border-color: rgba(50, 116, 59, 0.18);
+}
+
 @media print {
 .modal-backdrop,
 .no-print {
@@ -22,8 +177,9 @@ body.modal-open {
 .modal-content {
     border: 0 !important;
     box-shadow: none !important;
-    }
 }
+}
+
 @media print {
     app-root {
         display: none !important;

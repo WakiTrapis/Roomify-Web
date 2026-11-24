@@ -1,26 +1,26 @@
 .sidebar {
     width: 250px;
     min-height: 100vh;
-    background: #141a3d;
+    background: #000000;
 }
 
 .brand-icon {
-    color: #6366f1;
+    color: #14CA2B;
 }
 
 .sidebar-link {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.78);
     border-radius: 0.5rem;
 }
 
 .sidebar-link:hover {
     color: #fff;
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(20, 202, 43, 0.16);
 }
 
 .sidebar-link.active {
-    color: #fff;
-    background: #6366f1;
+    color: #000;
+    background: #14CA2B;
 }
 
 /* Pantallas pequeñas: la sidebar se convierte en un panel lateral */

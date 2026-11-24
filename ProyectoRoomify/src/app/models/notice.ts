@@ -9,6 +9,6 @@ export interface Notice {
 }
 
 export const NOTICE_TYPES: { value: NoticeType; label: string; badge: string }[] = [
-    { value: 'norma', label: 'Norma', badge: 'text-bg-primary' },
-    { value: 'comunicado', label: 'Comunicado', badge: 'text-bg-info' },
+    { value: 'norma', label: 'Norma', badge: 'text-bg-danger' },
+    { value: 'comunicado', label: 'Comunicado', badge: 'text-bg-violet-light' },
 ];

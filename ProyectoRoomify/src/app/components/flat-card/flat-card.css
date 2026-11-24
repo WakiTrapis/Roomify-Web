@@ -4,11 +4,11 @@
 
 .flat-card:hover {
     transform: translateY(-2px);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.12) !important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.18) !important;
 }
 
 .stat {
-    background: #f8f9fc;
+    background: rgba(50, 116, 59, 0.10);
 }
 
 /* No quitar, el enlace que cubre la card se comería los clics de los botones */

@@ -14,6 +14,6 @@ export interface Flat {
 }
 
 export const FLAT_MODES: { value: FlatMode; label: string; badge: string }[] = [
-    { value: 'autogestionado', label: 'Autogestionado', badge: 'text-bg-info' },
-    { value: 'vinculado', label: 'Vinculado', badge: 'text-bg-primary' },
+    { value: 'autogestionado', label: 'Autogestionado', badge: 'text-bg-secondary' },
+    { value: 'vinculado', label: 'Vinculado', badge: 'text-bg-success' },
 ];

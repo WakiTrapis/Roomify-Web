@@ -14,5 +14,5 @@ export interface Receipt {
 export const RECEIPT_STATUSES: { value: ReceiptStatus; label: string; badge: string }[] = [
     { value: 'emitido', label: 'Emitido', badge: 'text-bg-warning' },
     { value: 'pagado', label: 'Pagado', badge: 'text-bg-success' },
-    { value: 'anulado', label: 'Anulado', badge: 'text-bg-secondary' },
+    { value: 'anulado', label: 'Anulado', badge: 'text-bg-danger' },
 ];
